@@ -1,3 +1,5 @@
+//File for displaying all the Form-input data
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,7 +8,8 @@
 
 </head>
 <body style="background-color:#b2d4ff ">
-<h1>Details</h1>
+<h1 style="text-align: center">Details</h1>
+<br>
 <table class="table table-dark">
 	<thead>
 		<tr>
@@ -32,6 +35,9 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
+//Query database for all info 
+
+/* Note : each attribute to be echoed one by one since PHP and HTML cannot overlap */
 
 $sql = "SELECT * FROM Friends";
 $result = $conn->query($sql);

@@ -1,3 +1,6 @@
+/* File for handling Login requests */
+
+//Connection to server and database
 <?php
 $servername = "localhost";
 $username = "root";
@@ -29,6 +32,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     else{
         $password = trim($_POST['password']);
     }
+/* Parameter binding for preventing SQL injections */
 
     if(empty($username_err) && empty($password_err)){
     	$sql = "SELECT username, password FROM Users WHERE username = ?";
@@ -68,6 +72,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 ?>
 
+/* Form template for Login with proper validation and Error handling */
 <html lang="en">
   <head>
 

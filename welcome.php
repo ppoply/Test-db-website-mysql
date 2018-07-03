@@ -1,14 +1,16 @@
+// Header file upon successfull login . Contains button links for Form and Logout.
+
 <?php
 
 session_start();
- 
+ //If session variable(s) not set then head to login form page again .
 
 if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
   header("location: login.php");
   exit;
 }
 ?>
- 
+ // Template for Welcome page 
 <!DOCTYPE html>
 <html lang="en">
 <head>

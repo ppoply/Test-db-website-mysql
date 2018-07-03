@@ -1,3 +1,6 @@
+/* File for Data insertion into table Friends(Form data) */
+
+//Connection to server and Database
 <?php
 $servername = "localhost";
 $username = "root";
@@ -10,7 +13,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-
+//Collection of User-input data
 $fname=$_POST['fname'];
 $lname=$_POST['lname'];
 $address=$_POST['address'];
@@ -18,6 +21,7 @@ $age=$_POST['age'];
 $city=$_POST['city'];
 $mobile=$_POST['mobile'];
 
+//Insertion of the collected (user-input) data into table Friends
 $sql = "INSERT INTO Friends 
 (Fname, Lname, Address, Age, City, Mobile)
 VALUES ( '$fname','$lname','$address','$age','$city','$mobile')";

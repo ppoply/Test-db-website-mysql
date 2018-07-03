@@ -1,3 +1,5 @@
+/* File for handling logout of current running session(s) */
+
 <?php
 
 session_start();

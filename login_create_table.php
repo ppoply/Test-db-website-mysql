@@ -1,5 +1,7 @@
-<?php
+/* File for creating table for Users */
 
+//Connection to server and Database
+<?php
 $servername = "localhost";
 $username = "root";
 $password = "mysql";
@@ -12,6 +14,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
+//Creation of table for Users info 
 $sql = "CREATE TABLE Users (
 			id int not null primary key auto_increment,
 			username varchar(50) not null unique,

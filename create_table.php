@@ -1,3 +1,6 @@
+/* Table creation file for Form-input data */
+
+//Connection to server and database
 <?php
 $servername = "localhost";
 $username = "root";
@@ -11,7 +14,7 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
 
-
+//Creation of Table for Form-input data
 $sql = "CREATE TABLE Friends (
 ID INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, 
 Fname VARCHAR(30) NOT NULL,

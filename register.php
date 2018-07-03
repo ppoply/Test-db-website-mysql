@@ -1,10 +1,11 @@
+/* File for Handling Signup requests with proper validation */
 <?php
 $servername = "localhost";
 $username = "root";
 $passsword = "mysql";
 $dbname = "loginprac";
 
-
+//Connection to server and database
 $conn = new mysqli($servername, $username, $passsword, $dbname);
 
 if ($conn->connect_error) {
@@ -19,7 +20,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 	if(empty(trim($_POST["username"]))){
 		$username_err = "Username cannot be empty. ";
 	}
-
+/* Parameter-Binding for preventing SQL injections */
 	else{
 		$sql = "SELECT id FROM Users WHERE username = ?";
 
@@ -69,7 +70,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             $confirm_password_err = 'Password did not match.';
         }
     }
-
+//If no validation error then Signup successfull
     if(empty($username_err) && empty($password_err) && empty($confirm_password_err)){
     	$sql = "INSERT INTO Users (username, password) VALUES (?,?)";
 
@@ -92,7 +93,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $conn->close();
 }
 ?>
-
+// Template for Signup with proper validation and error handling
 <!doctype html>
 <html lang="en">
   <head>
