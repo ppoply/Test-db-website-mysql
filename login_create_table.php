@@ -1,7 +1,9 @@
+
+<?php
+
 /* File for creating table for Users */
 
 //Connection to server and Database
-<?php
 $servername = "localhost";
 $username = "root";
 $password = "mysql";

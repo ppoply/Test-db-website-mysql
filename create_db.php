@@ -1,7 +1,9 @@
+
+<?php
+
 /* Database creation file for Forms */
 
 //Connection to server
-<?php
 $servername = "localhost";
 $username = "root";
 $password = "mysql";

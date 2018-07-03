@@ -1,6 +1,7 @@
-//File for displaying all the Form-input data
+
 
 <!DOCTYPE html>
+<!--File for displaying all the Form-input data -->
 <html>
 <head>
 	<title></title>

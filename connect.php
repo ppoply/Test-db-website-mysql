@@ -1,9 +1,10 @@
 
+
+
+<?php
 /* Connection file for Users DB */
 
 //Making connection to server
-
-<?php
 
 $servername = "localhost";
 $username = "root";

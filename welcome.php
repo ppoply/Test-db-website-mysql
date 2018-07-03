@@ -1,7 +1,7 @@
-// Header file upon successfull login . Contains button links for Form and Logout.
+
 
 <?php
-
+// Header file upon successfull login . Contains button links for Form and Logout.
 session_start();
  //If session variable(s) not set then head to login form page again .
 
@@ -10,8 +10,9 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
   exit;
 }
 ?>
- // Template for Welcome page 
+ 
 <!DOCTYPE html>
+ <!--Template for Welcome page-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">

@@ -1,5 +1,7 @@
-/* File for Handling Signup requests with proper validation */
+
 <?php
+/* File for Handling Signup requests with proper validation */
+
 $servername = "localhost";
 $username = "root";
 $passsword = "mysql";
@@ -93,8 +95,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     $conn->close();
 }
 ?>
-// Template for Signup with proper validation and error handling
+
 <!doctype html>
+<!-- Template for Signup with proper validation and error handling -->
 <html lang="en">
   <head>
 

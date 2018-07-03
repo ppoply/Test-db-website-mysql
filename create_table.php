@@ -1,7 +1,9 @@
+
+<?php
+
 /* Table creation file for Form-input data */
 
 //Connection to server and database
-<?php
 $servername = "localhost";
 $username = "root";
 $password = "mysql";

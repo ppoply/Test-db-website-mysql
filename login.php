@@ -1,7 +1,9 @@
+
+<?php
+
 /* File for handling Login requests */
 
 //Connection to server and database
-<?php
 $servername = "localhost";
 $username = "root";
 $passsword = "mysql";
@@ -72,8 +74,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 ?>
 
-/* Form template for Login with proper validation and Error handling */
+
 <html lang="en">
+<!-- Form template for Login with proper validation and Error handling -->
   <head>
 
     <title>Log in</title>

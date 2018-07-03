@@ -1,7 +1,9 @@
+
+<?php
+
 /* File for Data insertion into table Friends(Form data) */
 
 //Connection to server and Database
-<?php
 $servername = "localhost";
 $username = "root";
 $password = "mysql";

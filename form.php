@@ -1,6 +1,8 @@
-/* Form-input file . Bootstrap used for the Template . */
+
 
 <!DOCTYPE html>
+<!--Form-input file . Bootstrap used for the Template . -->
+
 <html>
 <head>
 	<title>Form</title>

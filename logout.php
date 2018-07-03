@@ -1,7 +1,7 @@
-/* File for handling logout of current running session(s) */
+
 
 <?php
-
+/* File for handling logout of current running session(s) */
 session_start();
  
 
