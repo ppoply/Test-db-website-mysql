@@ -1,13 +1,11 @@
-
-
 <!DOCTYPE html>
-<!--Form-input file . Bootstrap used for the Template . -->
-
+<!-- Image gallery file -->
 <html>
 <head>
-	<title>Form</title>
+	<title>Image Gallary</title>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="iform.css">
+	<link rel="stylesheet" type="text/css" href="imgal.css">
+
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar sticky-top navbar-dark bg-dark">
@@ -21,8 +19,8 @@
       <li class="nav-item">
         <a class="nav-link" href="welcome.php">Home </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="imgal.php">Image gallery</a>
+      <li class="nav-item active">
+        <a class="nav-link" href="imgal.php">Image Gallery</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -40,58 +38,36 @@
     <a href="logout.php" class="btn btn-danger">Sign Out of Your Account</a>
   </form>
 
+
 </nav>
-<div class="container">
+	<div class="container">
 		<div class ="jumbotron">
 
-			<h1> Just Another Form</h1>
-			<p>Fill it up and leave this site </p>
+			<h1> The Image Gallery</h1>
+			<p>Enjoy these few images </p>
 		
 	</div>
 
-	<form action="insert.php" method="post">
-  
-  <div class="form-group col-md-5">
-    <label for="fname">First Name</label>
-    <input type="text" class="form-control" id="fname" name="fname" placeholder="Lionel">
-  </div>
-  
-  <div class="form-group col-md-5">
-    <label for="lname">Last name</label>
-    <input type="text" class="form-control" id="lname" name="lname" placeholder="Messi">
-  </div>
-  
-  <div class="form-group col-md-5">
-  		<label for ="age"> Age </label>
-  		<input type="number" class="form-control" id="age" name="age">
-  	</div>
+	
+	
 
-  <div class="form-group col-md-8">
-    <label for="inputAddress">Address</label>
-    <input type="text" class="form-control" name="address" min="1" id="inputAddress" >
-  </div>
+<div class="ig">
+	
+<img src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg">
+<img src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg">
+<img src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg">
 
-  
+<img src="http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg">
+<img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg">
+<img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg">
 
-    <div class="form-group col-md-4">
-      <label for="inputCity">City</label>
-      <input type="text" class="form-control" name="city" id="inputCity">
-    </div>
-
-    <div class="form-group col-md-4">
-      <label for="mno">Mobile</label>
-      <input type="text" class="form-control" name="mobile" id="mno">
-    </div>
-  <br>
-<div class="btnnn">
-	<button type="submit" class="btn btn-primary btn-lg">Submit</button>
-  <a class="btn btn-primary btn-lg" href="display.php" role="button">Display all details</a>
+<img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg">
+<img src="http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg">
+<img src="http://c2.staticflickr.com/8/7579/15482110477_0b0e9e5421_b.jpg">
 </div>
-<br>
+
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  
 
-</form>
 </body>
 </html>

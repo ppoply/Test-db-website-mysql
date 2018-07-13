@@ -1,0 +1,22 @@
+.container{
+	padding-top: 40px;
+
+}
+.jumbotron{
+	background: #eaeafa;
+	text-align:middle;
+}
+img{
+	width: 25%;
+	float: middle;
+	margin: 1.66%;
+}
+h1{
+	font-size: 4em;
+}
+p{
+	font-size: 1.5em;
+}
+.ig{
+	text-align: center;
+}
