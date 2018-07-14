@@ -25,7 +25,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar sticky-top navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"> Poply  </a>
+  <a class="navbar-brand" href="#">ꟼoply</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -44,7 +44,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="form.php">Form</a>
-          <a class="dropdown-item" href="#">About</a>
+          <a class="dropdown-item" href="pdf-form.php">PDF converter</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">Contact us</a>
         </div>
@@ -60,7 +60,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
    <div class="jumbotron">
   <h1 class="display-4">Hi, <b><?php echo htmlspecialchars($_SESSION['username']); ?></b>. Welcome to my site.</h1>This is just a project website which gives the developer an insight of Backend programming </p>
   <hr class="my-4">
-  <p>You can also fill up this form </p>
+  <p>You can also fill up this form here </p>
   <p class="lead">
     <a class="btn btn-primary btn-lg" href="form.php" role="button">Form</a>
   </p>

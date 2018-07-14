@@ -93,7 +93,12 @@ if ($result->num_rows > 0) {
 
 $conn->close();
 ?>
+
 </tbody>
 </table>
+<br>
+<div style="text-align: center;">
+<a class="btn btn-primary btn-lg" href="form.php" role="button" >Click here to go back</a>
+</div>
 </body>
 </html>
