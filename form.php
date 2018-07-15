@@ -22,7 +22,7 @@
         <a class="nav-link" href="welcome.php">Home </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="imgal.php">Image gallery</a>
+        <a class="nav-link" href="imgal.php">Image Gallery</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
