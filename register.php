@@ -103,13 +103,17 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     <title>Sign Up</title>
 
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" type="text/css" href="signup.css">
   </head>
 
-  <body class="text-center" style="background-color:#b2d4ff;">
+  <body class="text-center">
+
+    <div id="particles-js"></div>
+
+    <div class="text">
     <form class="form-signin" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
       <img class="mb-4" src="http://cdn.differencebetween.net/wp-content/uploads/2018/02/Difference-Between-Cool-and-Cold-1.gif" alt="" width="144" height="96">
       <h1 class="h3 mb-3 font-weight-normal">Please fill up these details to sign up</h1>
@@ -141,6 +145,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
  	<p>Already have an account? <a href="login.php">Login here</a></p>
       <p class="mt-5 mb-3 text-muted">&copy; 2018-20XX Parth Poply</p>
 
+    </div>
+
+      <script src='https://cldup.com/S6Ptkwu_qA.js'></script>
+    <script  src="js/index.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
 
     </form>
