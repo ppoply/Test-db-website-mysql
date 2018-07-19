@@ -119,7 +119,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
  	<p>Don't have an account? <a href="register.php">Sign up here.</a></p>
       <p class="mt-5 mb-3 text-muted">&copy; 2018-20XX Parth Poply</p>
 
-<div>
+</div>
       <script src='https://cldup.com/S6Ptkwu_qA.js'></script>
     <script  src="js/index.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">

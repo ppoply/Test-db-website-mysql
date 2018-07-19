@@ -31,12 +31,8 @@ h1 {
 }
 
 a,
-a:visited {
-  color: #e34234;
-  transition: 0.25s;
-}
+a:link             
+ { color:black; }
 
-a:hover,
-a:focus {
-  color: #ba160c;
-}
+ a:hover             
+ { color:red; }

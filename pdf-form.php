@@ -22,12 +22,15 @@
       <li class="nav-item">
         <a class="nav-link" href="welcome.php">Home </a>
       </li>
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="imgal.php">Image Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.php">Blog</a>
       </li>
       <li class="nav-item dropdown ">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          More
+          More Projects
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="form.php">Form</a>

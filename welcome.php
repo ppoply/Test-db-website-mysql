@@ -17,13 +17,18 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 <head>
     <meta charset="UTF-8">
     <title>Welcome</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="iform.css">
     <style type="text/css">
         body{ text-align: center; }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
 	<nav class="navbar navbar-expand-lg navbar sticky-top navbar-dark bg-dark">
   <a class="navbar-brand" href="#">ꟼoply</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,9 +43,12 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
       <li class="nav-item">
         <a class="nav-link" href="imgal.php">Image Gallery</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blog.php">Blog</a>
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          More
+          More Projects
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="form.php">Form</a>
@@ -57,7 +65,7 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
 </div>
 </nav>
 
-   <div class="jumbotron">
+   <div class="jumbotron" style="margin-bottom: 0rem;">
   <h1 class="display-4">Hi, <b><?php echo htmlspecialchars($_SESSION['username']); ?></b>. Welcome to my site.</h1>This is just a project website which gives the developer an insight of Backend programming </p>
   <hr class="my-4">
   <p>You can also fill up this form here </p>
@@ -66,7 +74,9 @@ if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
   </p>
 </div>
 
-
+<div id="particles-js"></div>
+<script src='https://cldup.com/S6Ptkwu_qA.js'></script>
+    <script  src="js/index.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
