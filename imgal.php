@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<!-- Image gallery file -->
+<!-- Image gallery template file -->
 <html>
 <head>
-	<title>Image Gallary</title>
+	<title>Image Gallery</title>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="imgal.css">
 

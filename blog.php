@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Image gallery file -->
+<!-- Blog template file -->
 <html>
 <head>
   <title>Blog</title>
