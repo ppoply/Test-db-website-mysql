@@ -6,7 +6,7 @@
 <p> - There is a link to a Blog , an image gallery and also other projects I've done during my Internship . </p>
 <p> - Proper measures have been taken for data integrity and safety. </p>
 <p> - For the back end PHP and MySQL are used. </p>
-<p> - For the front end a basic form template from Bootstrap is taken and has been altered accordingly to the requirements. </p>
+<p> - For the front end Bootstrap library has been used throughout the website . Particle.js has also been used for few things. Gradually the whole background theme of the website will be a Particle.js template. </p>
 
 
 <p> <strong>Updates will keep on coming . This is just a practice project so any suggestions are welcomed .</strong></p>
